@@ -1,9 +1,9 @@
 # Docker containers and networking.
 ---
-- Creating images | 
+- Creating images
 - Running containers |
 - Networking |
-+++
+---
 # - Networking
 
 '''
