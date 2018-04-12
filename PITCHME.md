@@ -27,15 +27,21 @@ Luckily it’s very easy to define, run, and scale services with the Docker plat
 ### Stack
 Run your new load-balanced app
 Before we can use the docker stack deploy command we first run:
-```docker swarm init```
+```
+docker swarm init
+```
 
 Now let’s run it. You need to give your app a name. Here, it is set to getstartedlab:
-```docker stack deploy -c docker-compose.yml getstartedlab```
+```
+docker stack deploy -c docker-compose.yml getstartedlab
+```
 
 Our single service stack is running 5 container instances of our deployed image on one host. Let’s investigate.
 
 Get the service ID for the one service in our application:
-```docker service ls```
+```
+docker service ls
+```
 [Source:Docker](https://docs.docker.com/get-started/part3/#run-your-new-load-balanced-app)
 ---
 ## Networking
