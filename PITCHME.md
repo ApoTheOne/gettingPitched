@@ -1,9 +1,10 @@
 # Docker containers and networking.
 ---
+Topics: 
 - Images |
 - Containers |
 - Services |
-- Stack
+- Stack |
 ---
 ### Images and Containers
 With Docker, you can just grab a portable node or dotnetcore runtime as an image, no installation necessary. Then, your build can include the base node or any other runtime image right alongside your app code, ensuring that your app, its dependencies, and the runtime, all travel together.
