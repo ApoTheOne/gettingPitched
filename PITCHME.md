@@ -24,6 +24,8 @@ Services are really just “containers in production.” A service only runs one
 Luckily it’s very easy to define, run, and scale services with the Docker platform -- just write a docker-compose.yml file.
 [Source](https://docs.docker.com/get-started/part3/#run-your-new-load-balanced-app)
 ---
+To sum up: Services codify a container’s behavior in a Compose file, and this file can be used to scale, limit, and redeploy our app. Changes to the service can be applied in place, as it runs, using the same command that launched the service: docker stack deploy.
+---
 ### Stack
 Run your new load-balanced app
 Before we can use the docker stack deploy command we first run:
